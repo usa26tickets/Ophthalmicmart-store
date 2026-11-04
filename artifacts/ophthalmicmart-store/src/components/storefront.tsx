@@ -3,8 +3,8 @@ import { Link, Route, Switch, useLocation, useParams } from "wouter";
 import { Menu, Search, ShoppingCart, UserRound, X } from "lucide-react";
 import { articles, discountSlugs, featuredSlugs, formatPrice, products, type Product } from "../data/catalog";
 
-const CONTACT_PHONE = "667 526 6215";
-const CONTACT_PHONE_LINK = "6675266215";
+const CONTACT_PHONE = "+1 667 526 6215";
+const CONTACT_PHONE_LINK = "+1 6675266215";
 const CONTACT_EMAIL = "howmayibeofhelp@gmail.com";
 
 type CartLine = { slug: string; quantity: number };
